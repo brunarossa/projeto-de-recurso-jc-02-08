@@ -1,0 +1,22 @@
+Este projeto consiste no desenvolvimento de uma simulação de um centro de distribuição de produtos. 
+
+O centro de distribuição é representado por um espaço retangular, dividido em posições onde foi definido por 5 linhas (rows) e 29 colunas (columns) pelo ficheiro CSV. 
+
+A classe AppStart tem todos os elementos de simulação, onde o utilizador pode: 
+	-adicionar veículos ao centro e os mover
+	-adicionar os produtos e imprimir a lista de produtos criados
+	-adicionar embalagens e imprimir a lista de embalagens criadas
+	-colocar os produtos nas embalagens
+	-colocar as embalagens nos veículos 
+	-entregar produtos as respetivas prateleiras
+
+O utilizador terá poucas dificuldades em fazer o que pretende, sendo que é um programa interativo e intuitivo.
+
+São implementadas, além da classe AppStart, outras classes, 
+    -derivadas de Product (produtos)
+    -derivadas de Packaging (embalagens)
+    -derivadas de Vehicle (veículos)
+    -derivadas de Position (posição)
+    -testes
+
+
